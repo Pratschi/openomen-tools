@@ -1,0 +1,7 @@
+Package: openomen
+Version: 0.5.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: audixdev <audixdev@gmail.com>
+Description: Unofficial driver and daemon for HP OMEN hardware on Linux.
