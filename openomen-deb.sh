@@ -117,6 +117,7 @@ Maintainer: audixdev <audixdev@gmail.com>
 Description: Unofficial driver and daemon for HP OMEN hardware on Linux.
 EOF
 
+echo "[INFO] Building deb..."
 dpkg-deb --build "$PKG_DIR" "$DEB_FILE"
 
 if [[ "$CLEAN" == true ]]; then
