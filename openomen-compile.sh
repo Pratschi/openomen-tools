@@ -21,5 +21,5 @@ rm -rf build dist .venv
 clear
 echo "[INFO] Compilation complete."
 source ~/.bashrc
-./openomen_executable -v
+./openomen_exec -v
 echo "[INFO] Done."
