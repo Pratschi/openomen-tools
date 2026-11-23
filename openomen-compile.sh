@@ -18,8 +18,6 @@ mv dist/openomen openomen_exec
 rm -rf build dist .venv
 
 # Run
-clear
-echo "[INFO] Compilation complete."
+echo "[DONE] Compilation complete."
 source ~/.bashrc
 ./openomen_exec -v
-echo "[INFO] Done."
